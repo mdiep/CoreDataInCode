@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEF3F46614C7A3BA00A9720E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF3F46514C7A3BA00A9720E /* Cocoa.framework */; };
+		BEF3F47214C7A3BA00A9720E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3F47114C7A3BA00A9720E /* main.m */; };
+		BEF3F47914C7A3BA00A9720E /* RBAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3F47814C7A3BA00A9720E /* RBAppController.m */; };
+		BEF3F49114C7A4E600A9720E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BEF3F48A14C7A4E600A9720E /* Credits.rtf */; };
+		BEF3F49214C7A4E600A9720E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEF3F48C14C7A4E600A9720E /* InfoPlist.strings */; };
+		BEF3F49314C7A4E600A9720E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF3F48E14C7A4E600A9720E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEF3F46114C7A3BA00A9720E /* RecipeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF3F46514C7A3BA00A9720E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BEF3F46814C7A3BA00A9720E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BEF3F46914C7A3BA00A9720E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BEF3F46A14C7A3BA00A9720E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEF3F47114C7A3BA00A9720E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEF3F47314C7A3BA00A9720E /* RecipeBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecipeBook-Prefix.pch"; sourceTree = "<group>"; };
+		BEF3F47714C7A3BA00A9720E /* RBAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppController.h; sourceTree = "<group>"; };
+		BEF3F47814C7A3BA00A9720E /* RBAppController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppController.m; sourceTree = "<group>"; };
+		BEF3F48B14C7A4E600A9720E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		BEF3F48D14C7A4E600A9720E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		BEF3F48F14C7A4E600A9720E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		BEF3F49014C7A4E600A9720E /* RecipeBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RecipeBook-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF3F45E14C7A3BA00A9720E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF3F46614C7A3BA00A9720E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEF3F45614C7A3BA00A9720E = {
+			isa = PBXGroup;
+			children = (
+				BEF3F48614C7A45400A9720E /* Source */,
+				BEF3F48814C7A45F00A9720E /* Resources */,
+				BEF3F46414C7A3BA00A9720E /* Frameworks */,
+				BEF3F46214C7A3BA00A9720E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF3F46214C7A3BA00A9720E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3F46114C7A3BA00A9720E /* RecipeBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF3F46414C7A3BA00A9720E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3F46514C7A3BA00A9720E /* Cocoa.framework */,
+				BEF3F46714C7A3BA00A9720E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEF3F46714C7A3BA00A9720E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3F46814C7A3BA00A9720E /* AppKit.framework */,
+				BEF3F46914C7A3BA00A9720E /* CoreData.framework */,
+				BEF3F46A14C7A3BA00A9720E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BEF3F48614C7A45400A9720E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3F47714C7A3BA00A9720E /* RBAppController.h */,
+				BEF3F47814C7A3BA00A9720E /* RBAppController.m */,
+				BEF3F47314C7A3BA00A9720E /* RecipeBook-Prefix.pch */,
+				BEF3F47114C7A3BA00A9720E /* main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BEF3F48814C7A45F00A9720E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3F48E14C7A4E600A9720E /* MainMenu.xib */,
+				BEF3F48A14C7A4E600A9720E /* Credits.rtf */,
+				BEF3F48C14C7A4E600A9720E /* InfoPlist.strings */,
+				BEF3F49014C7A4E600A9720E /* RecipeBook-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF3F46014C7A3BA00A9720E /* RecipeBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF3F47F14C7A3BB00A9720E /* Build configuration list for PBXNativeTarget "RecipeBook" */;
+			buildPhases = (
+				BEF3F45D14C7A3BA00A9720E /* Sources */,
+				BEF3F45E14C7A3BA00A9720E /* Frameworks */,
+				BEF3F45F14C7A3BA00A9720E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipeBook;
+			productName = RecipeBook;
+			productReference = BEF3F46114C7A3BA00A9720E /* RecipeBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF3F45814C7A3BA00A9720E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BEF3F45B14C7A3BA00A9720E /* Build configuration list for PBXProject "RecipeBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEF3F45614C7A3BA00A9720E;
+			productRefGroup = BEF3F46214C7A3BA00A9720E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF3F46014C7A3BA00A9720E /* RecipeBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF3F45F14C7A3BA00A9720E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF3F49114C7A4E600A9720E /* Credits.rtf in Resources */,
+				BEF3F49214C7A4E600A9720E /* InfoPlist.strings in Resources */,
+				BEF3F49314C7A4E600A9720E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF3F45D14C7A3BA00A9720E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF3F47214C7A3BA00A9720E /* main.m in Sources */,
+				BEF3F47914C7A3BA00A9720E /* RBAppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEF3F48A14C7A4E600A9720E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF3F48B14C7A4E600A9720E /* en */,
+			);
+			name = Credits.rtf;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		BEF3F48C14C7A4E600A9720E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF3F48D14C7A4E600A9720E /* en */,
+			);
+			name = InfoPlist.strings;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		BEF3F48E14C7A4E600A9720E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF3F48F14C7A4E600A9720E /* en */,
+			);
+			name = MainMenu.xib;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEF3F47D14C7A3BB00A9720E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEF3F47E14C7A3BB00A9720E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEF3F48014C7A3BB00A9720E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/RecipeBook-Prefix.pch";
+				INFOPLIST_FILE = "Resources/RecipeBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEF3F48114C7A3BB00A9720E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/RecipeBook-Prefix.pch";
+				INFOPLIST_FILE = "Resources/RecipeBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF3F45B14C7A3BA00A9720E /* Build configuration list for PBXProject "RecipeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF3F47D14C7A3BB00A9720E /* Debug */,
+				BEF3F47E14C7A3BB00A9720E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF3F47F14C7A3BB00A9720E /* Build configuration list for PBXNativeTarget "RecipeBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF3F48014C7A3BB00A9720E /* Debug */,
+				BEF3F48114C7A3BB00A9720E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEF3F45814C7A3BA00A9720E /* Project object */;
+}
