@@ -13,6 +13,9 @@
 		BEF3F49114C7A4E600A9720E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BEF3F48A14C7A4E600A9720E /* Credits.rtf */; };
 		BEF3F49214C7A4E600A9720E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEF3F48C14C7A4E600A9720E /* InfoPlist.strings */; };
 		BEF3F49314C7A4E600A9720E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF3F48E14C7A4E600A9720E /* MainMenu.xib */; };
+		BEF3F49714C8CF8700A9720E /* RBLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3F49614C8CF8700A9720E /* RBLibrary.m */; };
+		BEF3F49A14C8CFC100A9720E /* RBObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3F49914C8CFC100A9720E /* RBObjectModel.m */; };
+		BEF3F49B14C8CFFB00A9720E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF3F46914C7A3BA00A9720E /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		BEF3F48D14C7A4E600A9720E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		BEF3F48F14C7A4E600A9720E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
 		BEF3F49014C7A4E600A9720E /* RecipeBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RecipeBook-Info.plist"; sourceTree = "<group>"; };
+		BEF3F49514C8CF8700A9720E /* RBLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; path = RBLibrary.h; sourceTree = "<group>"; };
+		BEF3F49614C8CF8700A9720E /* RBLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBLibrary.m; sourceTree = "<group>"; };
+		BEF3F49814C8CFC100A9720E /* RBObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBObjectModel.h; sourceTree = "<group>"; };
+		BEF3F49914C8CFC100A9720E /* RBObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBObjectModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF3F49B14C8CFFB00A9720E /* CoreData.framework in Frameworks */,
 				BEF3F46614C7A3BA00A9720E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +93,10 @@
 			children = (
 				BEF3F47714C7A3BA00A9720E /* RBAppController.h */,
 				BEF3F47814C7A3BA00A9720E /* RBAppController.m */,
+				BEF3F49514C8CF8700A9720E /* RBLibrary.h */,
+				BEF3F49614C8CF8700A9720E /* RBLibrary.m */,
+				BEF3F49814C8CFC100A9720E /* RBObjectModel.h */,
+				BEF3F49914C8CFC100A9720E /* RBObjectModel.m */,
 				BEF3F47314C7A3BA00A9720E /* RecipeBook-Prefix.pch */,
 				BEF3F47114C7A3BA00A9720E /* main.m */,
 			);
@@ -167,6 +179,8 @@
 			files = (
 				BEF3F47214C7A3BA00A9720E /* main.m in Sources */,
 				BEF3F47914C7A3BA00A9720E /* RBAppController.m in Sources */,
+				BEF3F49714C8CF8700A9720E /* RBLibrary.m in Sources */,
+				BEF3F49A14C8CFC100A9720E /* RBObjectModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

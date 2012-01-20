@@ -9,8 +9,13 @@
 #import <Cocoa/Cocoa.h>
 
 
+@class RBLibrary;
+
 @interface RBAppController : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+
+@property (strong, readonly) NSURL *applicationSupportDirectory;
+@property (strong) RBLibrary *library;
 
 @end
