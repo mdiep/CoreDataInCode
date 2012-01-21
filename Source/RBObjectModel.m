@@ -27,6 +27,7 @@
         recipeName.attributeType = NSStringAttributeType;
         
         NSEntityDescription *recipe = [NSEntityDescription new];
+        recipe.managedObjectClassName = @"RBRecipe";
         recipe.name       = @"Recipe";
         recipe.properties = [NSArray arrayWithObjects:
                              recipeName,
