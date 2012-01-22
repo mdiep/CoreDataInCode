@@ -9,6 +9,9 @@
 #import "RBObjectModel.h"
 
 
+#import "RBObjectModel_v001.h"
+#import "RBObjectModel_v002.h"
+
 @implementation RBObjectModel
 
 //==================================================================================================
@@ -22,23 +25,29 @@
     
     if (self)
     {
-        NSAttributeDescription *recipeName = [NSAttributeDescription new];
-        recipeName.name          = @"name";
-        recipeName.attributeType = NSStringAttributeType;
-        
-        NSEntityDescription *recipe = [NSEntityDescription new];
-        recipe.managedObjectClassName = @"RBRecipe";
-        recipe.name       = @"Recipe";
-        recipe.properties = [NSArray arrayWithObjects:
-                             recipeName,
-                             nil];
-        
-        self.entities = [NSArray arrayWithObjects:
-                         recipe,
-                         nil];
+        self.versionIdentifiers = [NSSet setWithObject:NSStringFromClass([self class])];
     }
     
     return self;
+}
+
+
+//==================================================================================================
+#pragma mark -
+#pragma mark Public Methods
+//==================================================================================================
+
++ (NSArray *) allVersions
+{
+    return [NSArray arrayWithObjects:
+            [RBObjectModel_v001 new],
+            [RBObjectModel_v002 new],
+            nil];
+}
+
++ (id) currentVersion
+{
+    return [RBObjectModel_v002 new];
 }
 
 

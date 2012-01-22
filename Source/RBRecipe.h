@@ -12,5 +12,6 @@
 @interface RBRecipe : NSManagedObject
 
 @property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *source;
 
 @end

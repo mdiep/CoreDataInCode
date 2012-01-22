@@ -17,6 +17,8 @@
 		BEF3F49A14C8CFC100A9720E /* RBObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3F49914C8CFC100A9720E /* RBObjectModel.m */; };
 		BEF3F49B14C8CFFB00A9720E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF3F46914C7A3BA00A9720E /* CoreData.framework */; };
 		BEF3F4D814CB215200A9720E /* RBRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3F4D714CB215200A9720E /* RBRecipe.m */; };
+		BEF3F4DF14CB9C8100A9720E /* RBObjectModel_v001.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3F4DE14CB9C8100A9720E /* RBObjectModel_v001.m */; };
+		BEF3F4E314CB9D2900A9720E /* RBObjectModel_v002.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3F4E214CB9D2900A9720E /* RBObjectModel_v002.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		BEF3F49914C8CFC100A9720E /* RBObjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBObjectModel.m; sourceTree = "<group>"; };
 		BEF3F4D614CB215200A9720E /* RBRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBRecipe.h; sourceTree = "<group>"; };
 		BEF3F4D714CB215200A9720E /* RBRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBRecipe.m; sourceTree = "<group>"; };
+		BEF3F4DD14CB9C8000A9720E /* RBObjectModel_v001.h */ = {isa = PBXFileReference; fileEncoding = 4; path = RBObjectModel_v001.h; sourceTree = "<group>"; };
+		BEF3F4DE14CB9C8100A9720E /* RBObjectModel_v001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBObjectModel_v001.m; sourceTree = "<group>"; };
+		BEF3F4E114CB9D2900A9720E /* RBObjectModel_v002.h */ = {isa = PBXFileReference; fileEncoding = 4; path = RBObjectModel_v002.h; sourceTree = "<group>"; };
+		BEF3F4E214CB9D2900A9720E /* RBObjectModel_v002.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBObjectModel_v002.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		BEF3F48614C7A45400A9720E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				BEF3F4E014CB9C8600A9720E /* Models */,
 				BEF3F47714C7A3BA00A9720E /* RBAppController.h */,
 				BEF3F47814C7A3BA00A9720E /* RBAppController.m */,
 				BEF3F49514C8CF8700A9720E /* RBLibrary.h */,
@@ -117,6 +124,17 @@
 				BEF3F49014C7A4E600A9720E /* RecipeBook-Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BEF3F4E014CB9C8600A9720E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEF3F4DD14CB9C8000A9720E /* RBObjectModel_v001.h */,
+				BEF3F4DE14CB9C8100A9720E /* RBObjectModel_v001.m */,
+				BEF3F4E114CB9D2900A9720E /* RBObjectModel_v002.h */,
+				BEF3F4E214CB9D2900A9720E /* RBObjectModel_v002.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +205,8 @@
 				BEF3F49714C8CF8700A9720E /* RBLibrary.m in Sources */,
 				BEF3F49A14C8CFC100A9720E /* RBObjectModel.m in Sources */,
 				BEF3F4D814CB215200A9720E /* RBRecipe.m in Sources */,
+				BEF3F4DF14CB9C8100A9720E /* RBObjectModel_v001.m in Sources */,
+				BEF3F4E314CB9D2900A9720E /* RBObjectModel_v002.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

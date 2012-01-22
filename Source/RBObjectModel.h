@@ -11,4 +11,7 @@
 
 @interface RBObjectModel : NSManagedObjectModel
 
++ (NSArray *) allVersions;
++ (id) currentVersion;
+
 @end
