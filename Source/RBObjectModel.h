@@ -14,4 +14,6 @@
 + (NSArray *) allVersions;
 + (id) currentVersion;
 
+@property (strong, readonly) NSMappingModel *mappingModel;
+
 @end

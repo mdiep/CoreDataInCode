@@ -113,9 +113,13 @@
     NSURL *resultURL = nil;
     
     // Find a mapping model.
-    NSMappingModel *mappingModel = [NSMappingModel inferredMappingModelForSourceModel:sourceModel
-                                                                     destinationModel:destinationModel
-                                                                                error:error];
+    NSMappingModel *mappingModel = destinationModel.mappingModel;
+    if (!mappingModel)
+    {
+        mappingModel = [NSMappingModel inferredMappingModelForSourceModel:sourceModel
+                                                         destinationModel:destinationModel
+                                                                    error:error];
+    }
     if (!mappingModel)
         return NO;
     

@@ -11,6 +11,7 @@
 
 #import "RBObjectModel_v001.h"
 #import "RBObjectModel_v002.h"
+#import "RBObjectModel_v003.h"
 
 @implementation RBObjectModel
 
@@ -42,12 +43,24 @@
     return [NSArray arrayWithObjects:
             [RBObjectModel_v001 new],
             [RBObjectModel_v002 new],
+            [RBObjectModel_v003 new],
             nil];
 }
 
 + (id) currentVersion
 {
-    return [RBObjectModel_v002 new];
+    return [[[self class] allVersions] lastObject];
+}
+
+
+//==================================================================================================
+#pragma mark -
+#pragma mark Public Methods
+//==================================================================================================
+
+- (NSMappingModel *) mappingModel
+{
+    return nil;
 }
 
 

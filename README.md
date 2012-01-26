@@ -16,3 +16,6 @@ Several reasons:
 5. On iOS, app writers are limited to static libraries for reusing code between apps. That complicates the bundling of compiled object models. By writing models in code, they are included directly in the .a file.
 
 [CDPG]: http://developer.apple.com/library/mac/documentation/cocoa/conceptual/coredata/Articles/cdBasics.html#//apple_ref/doc/uid/TP40001650-207332-TPXREF151
+
+## Notes
+* I stopped short of making this an actual working app. After upgrading to the latest model, you won't be able to set the source for any recipes. I focused on the models and migrations.
